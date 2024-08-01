@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: rgb(17, 17, 17);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            padding: 16px;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(79, 77, 182);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.01rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+        }
+
+        .firstsection div {
+            width: 40%;
+        }
+
+        .left {
+
+            font-size: 3rem;
+            margin: 70px 0;
+
+        }
+
+        .left .button {
+            padding: 50px 0;
+        }
+    
+
+        .left .btn {
+            color: white;
+            border: 2px solid white;
+            background-color: rgb(17, 17, 17);
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .right img {
+            width: 80%;
+            margin: 23px 0;
+
+
+        }
+
+        .purple {
+            color: blueviolet;
+
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        #element {
+            color: lavender;
+        }
+
+        .section2 {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .section2 h1 {
+            font-size: 1.9rem;
+        }
+
+        .section2 .box {
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .section2 .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 500px;
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        footer {
+
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .first-footer h3{
+            font-size: 24px;
+            font-weight: 600;
+            color: #fbfbfb;
+        }
+
+
+        .second-footer p{
+        
+            cursor: pointer;
+        }
+        .second-footer i{
+            
+            font-size: 14px;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-text-center {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rabbiya's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="my_portfolio.html">Home</a></li>
+                    <li><a href="#work">Project</a></li>
+                    <li><a href="#footer">Contact us</a></li>
+    
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="left">Hi, My name is <span class="purple">Rabbiya</span>
+                <div class="ad">and I am a passionate
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="right"><img src="developer.jpg" alt=""></div>
+        </section>
+        <hr>
+        <section class="section2" id="work">
+            <span class="gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical"><img class="image-top" src="insta logojpg.jpg" alt="">
+                    <div class="vertical-title">An ecommerce website</div>
+                    <div class="vertical-desc">
+                        Developing an e-commerce website using the MERN stack (MongoDB, Express, React, Node.js) has been a transformative experience that showcases my full-stack development skills. I led the design and implementation of a responsive, user-friendly platform that seamlessly integrates a powerful backend with an intuitive frontend interface. This project involved crafting a dynamic product catalog, implementing secure user authentication, and managing a robust database to handle complex transactions and user data. Through this endeavor, I honed my abilities in modern web technologies, problem-solving, and delivering high-quality, scalable solutions that enhance the user experience and drive business growth.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer" class="footer">
+
+            <div class="first-footer">
+                <h3>Contact us</h3>
+            </div>
+            <div class="second-footer">
+                <p><i class="fas fa-angle-right"></i> Home</p>
+                <p><i class="fas fa-angle-right"></i> Project</p>
+            </div>
+            <div class="second-footer">
+            
+                    <p><i class="fas fa-phone"></i>03146222415</p>
+                    <p><i class="fas fa-envelope"></i>rabbiabatool875@gmail.com</p>
+            
+            </div>
+            <div class="second-footer">
+                
+                    <p><i class="fab fa-facebook-f"></i> Facebook</p>
+                    <p><i class="fab fa-twitter"></i> Twitter</p>
+            
+            </div>
+        </div>
+        <div class="footer-text-center">
+            CopyRight © www.rabbiyaportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack','MERN Web','Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
